@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slideshows</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="image-wrapper">
+                    <button id="previous">&larr;</button>
+                    <div class="image-slider">
+                        <img src="images/background1.jpg" id="1">
+                        <img src="images/background2.jpg" id="2">
+                        <img src="images/background3.jpg" id="3" class="active">
+                        <img src="images/background4.jpg" id="4">
+                        <img src="images/background5.jpg" id="5">
+                    </div>
+                    <button id="next">&rarr;</button>
+        </div>
+
+            <div class="dot-navigation">
+                <span class="dot" id="1"></span>
+                <span class="dot" id="2"></span>
+                <span class="dot active" id="3"></span>
+                <span class="dot" id="4"></span>
+                <span class="dot" id="5"></span>
+            </div>
+    </div>
+</body>
+</html>
